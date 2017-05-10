@@ -14,14 +14,6 @@
         "--talk-name=ca.desrt.dconf",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
     ],
-    "build-options" : {
-        "cflags": "-O2 -g -fstack-protector-strong -D_FORTIFY_SOURCE=2",
-        "cxxflags": "-O2 -g -fstack-protector-strong -D_FORTIFY_SOURCE=2",
-        "ldflags": "-fstack-protector-strong -Wl,-z,relro,-z,now",
-        "env": {
-            "V": "1"
-        }
-    },
     "cleanup": [
         "/include",
         "/lib/pkgconfig",
@@ -63,8 +55,7 @@
                     {
                         "type": "git",
                         "url": "git://git.gnome.org/recipes",
-                        "branch": "1.0.4",
-                        "commit": "cdfb19b90587bc0c44404fae30c139f9ec1cca5c"
+                        "branch": "1.0.8"
                     }
             ]
         }
