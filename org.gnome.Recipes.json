@@ -55,7 +55,7 @@
                     {
                         "type": "git",
                         "url": "git://git.gnome.org/recipes",
-                        "branch": "1.0.10"
+                        "branch": "2.0.0"
                     }
             ]
         }
