@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Recipes",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.24",
+    "runtime-version": "3.28",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-recipes",
     "finish-args": [
@@ -63,8 +63,8 @@
             "sources": [
                     {
                         "type": "archive",
-                        "url": "https://download.gnome.org/sources/gnome-online-accounts/3.26/gnome-online-accounts-3.26.2.tar.xz",
-                        "sha256": "49f8760d86fe33057eaeeb4f1667bc7f6163e428591e7aed9575563be10b17d1"
+                        "url": "https://download.gnome.org/sources/gnome-online-accounts/3.28/gnome-online-accounts-3.28.0.tar.xz",
+                        "sha256": "87bc4ef307604f1ce4f09f6e5c9996ef8d37ca5e0a3bf76f6b27d71844adb40c"
                     }
             ]
         },
