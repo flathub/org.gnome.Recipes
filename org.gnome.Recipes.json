@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Recipes",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.24",
+    "runtime-version": "3.28",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-recipes",
     "finish-args": [
@@ -33,8 +33,8 @@
             "sources": [
                     {
                         "type": "archive",
-                        "url": "https://download.gnome.org/sources/gspell/1.3/gspell-1.3.3.tar.xz",
-                        "sha256": "b9f798599cd4f785709c0de95614c99603b3649accaf356dd4031522405bc212"
+                        "url": "https://download.gnome.org/sources/gspell/1.8/gspell-1.8.0.tar.xz",
+                        "sha256": "1b7fc2c5b84ede43bc52d513f0601238af92b572a42b19363da6d067fb529345"
                     }
             ]
         },
@@ -43,8 +43,8 @@
             "sources": [
                     {
                         "type": "archive",
-                        "url": "https://download.gnome.org/sources/gnome-autoar/0.2/gnome-autoar-0.2.1.tar.xz",
-                        "sha256": "f642935e9213663c114988403fba26c02e79a644b33cb0e4da0d4aec570fb1fb"
+                        "url": "https://download.gnome.org/sources/gnome-autoar/0.2/gnome-autoar-0.2.3.tar.xz",
+                        "sha256": "5de9db0db028cd6cab7c2fec46ba90965474ecf9cd68cfd681a6488cf1fb240a"
                     }
             ]
         },
@@ -53,8 +53,8 @@
             "sources": [
                     {
                         "type": "archive",
-                        "url": "https://download.gnome.org/sources/rest/0.7/rest-0.7.93.tar.xz",
-                        "sha256": "c710644455340a44ddc005c645c466f05c0d779993138ea21a62c6082108b216"
+                        "url": "https://download.gnome.org/sources/rest/0.8/rest-0.8.1.tar.xz",
+                        "sha256": "0513aad38e5d3cedd4ae3c551634e3be1b9baaa79775e53b2dba9456f15b01c9"
                     }
             ]
         },
@@ -63,8 +63,8 @@
             "sources": [
                     {
                         "type": "archive",
-                        "url": "https://download.gnome.org/sources/gnome-online-accounts/3.26/gnome-online-accounts-3.26.1.tar.xz",
-                        "sha256": "603c110405cb89a01497a69967f10e3f3f36add3dc175b062ec4c5ed4485621b"
+                        "url": "https://download.gnome.org/sources/gnome-online-accounts/3.28/gnome-online-accounts-3.28.0.tar.xz",
+                        "sha256": "87bc4ef307604f1ce4f09f6e5c9996ef8d37ca5e0a3bf76f6b27d71844adb40c"
                     }
             ]
         },
