@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Recipes",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-recipes",
     "finish-args": [
@@ -33,8 +33,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gspell/1.8/gspell-1.8.2.tar.xz",
-                    "sha256": "bb9195c3a95bacf556d0203e9691f7489e0d3bc5ae1e5a440c89b2f2435d3ed6"
+                    "url": "https://download.gnome.org/sources/gspell/1.8/gspell-1.8.3.tar.xz",
+                    "sha256": "5ae514dd0216be069176accf6d0049d6a01cfa6a50df4bc06be85f7080b62de8"
                 }
             ]
         },
@@ -43,8 +43,8 @@
             "sources": [
                     {
                         "type": "archive",
-                        "url": "https://download.gnome.org/sources/gnome-autoar/0.2/gnome-autoar-0.2.3.tar.xz",
-                        "sha256": "5de9db0db028cd6cab7c2fec46ba90965474ecf9cd68cfd681a6488cf1fb240a"
+                        "url": "https://download.gnome.org/sources/gnome-autoar/0.2/gnome-autoar-0.2.4.tar.xz",
+                        "sha256": "0a34c377f8841abbf4c29bc848b301fbd8e4e20c03d7318c777c58432033657a"
                     }
             ]
         },
@@ -59,15 +59,19 @@
             ]
         },
         {
-            "name": "gnome-online-accounts",
-            "config-opts": ["--disable-telepathy", "--disable-documentation", "--disable-backend"],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-online-accounts/3.34/gnome-online-accounts-3.34.0.tar.xz",
-                    "sha256": "c44fbce4eeb54703a2ab4954d54f11eb29666f9cf61b5275b9fe0fc033377f57"
-                }
-            ]
+          "name": "gnome-online-accounts",
+          "config-opts": [
+            "--disable-telepathy",
+            "--disable-documentation",
+            "--disable-backend"
+          ],
+          "sources": [
+            {
+              "type": "archive",
+              "url": "https://download.gnome.org/sources/gnome-online-accounts/3.36/gnome-online-accounts-3.36.0.tar.xz",
+              "sha256": "1c8f62990833ca41188dbb80c5e99d99b57a62608ca675bbcd37bc2244742f2e"
+            }
+          ]
         },
         {
             "name": "recipes",
