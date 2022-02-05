@@ -79,12 +79,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-recipes/2.0/gnome-recipes-2.0.2.tar.xz",
-                    "sha256": "1be9d2fcb7404a97aa029d2409880643f15071c37039247a6a4320e7478cd5fb"
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata_fix.patch"
+                    "url": "https://download.gnome.org/sources/gnome-recipes/2.0/gnome-recipes-2.0.4.tar.xz",
+                    "sha256": "b30e96985f66fe138a17189c77af44d34d0b4c859b304ebdb52033bc2cd3ffed"
                 }
             ]
         }
