@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Recipes",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-recipes",
     "finish-args": [
@@ -17,6 +17,7 @@
         "/lib/pkgconfig",
         "/share/pkgconfig",
         "/share/aclocal",
+        "/share/gir-1.0",
         "/man",
         "/share/man",
         "/share/gtk-doc",
@@ -48,6 +49,7 @@
                     }
             ]
         },
+        "shared-modules/libsoup/libsoup-2.4.json",
         {
             "name": "librest",
             "sources": [
@@ -64,6 +66,9 @@
             "--disable-telepathy",
             "--disable-documentation",
             "--disable-backend"
+          ],
+          "cleanup": [
+            "/lib/goa-1.0/include"
           ],
           "sources": [
             {
