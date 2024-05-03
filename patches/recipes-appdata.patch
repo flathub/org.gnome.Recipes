@@ -1,0 +1,12 @@
+diff --git a/data/appdata/org.gnome.Recipes.appdata.xml.in b/data/appdata/org.gnome.Recipes.appdata.xml.in
+index 194020d..417e64d 100644
+--- a/data/appdata/org.gnome.Recipes.appdata.xml.in
++++ b/data/appdata/org.gnome.Recipes.appdata.xml.in
+@@ -475,7 +475,6 @@
+   <content_rating type="oars-1.1" />
+   <launchable type="desktop-id">org.gnome.Recipes.desktop</launchable>
+   <url type="homepage">https://wiki.gnome.org/Apps/Recipes</url>
+-  <url type="donation">https://www.gnome.org/friends</url>
+   <url type="bugtracker">https://gitlab.gnome.org/GNOME/recipes/issues/</url>
+   <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+   <translation type="gettext">gnome-recipes</translation>
