@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Recipes",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-recipes",
     "finish-args": [
@@ -89,7 +89,10 @@
                 },
                 {
                     "type": "patch",
-                    "path": "patches/recipes-appdata.patch"
+                    "paths": [
+                        "patches/recipes-appdata.patch",
+                        "patches/gnome-recipe-build.patch"
+                    ]
                 }
             ]
         }
